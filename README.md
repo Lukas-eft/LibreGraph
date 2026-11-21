@@ -244,6 +244,15 @@ All window, viewport, sampling density, and theme palette defaults are centraliz
 
 ---
 
+## ⚠️ Disclaimer
+
+**LibreGraph** is an independent, non-commercial personal hobby and educational project built from scratch to explore symbolic math evaluation and 2D/3D canvas rendering in Python.
+
+- **No Affiliation or Commercial Intent:** This project is not affiliated with, endorsed by, or connected to Desmos, GeoGebra, or any other graphing calculator software or company. It is purely a learning project and does not aim to compete with or replace any existing commercial or educational product.
+- **Takedown & Removal Requests:** All code in this repository was written independently. However, if you are a rights holder and believe any part of this repository infringes on your intellectual property, trademarks, or rights—or if you would like any content modified or taken down—please open an [Issue](https://github.com/Lukas-eft/LibreGraph/issues) or contact the repository owner via GitHub, and it will be addressed or removed promptly.
+
+---
+
 ## License
 
 This project is released under the [MIT License](https://opensource.org/licenses/MIT).
