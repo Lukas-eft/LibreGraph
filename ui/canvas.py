@@ -1166,17 +1166,6 @@ CANVAS_JS = r"""
       ctx.stroke();
       ctx.restore();
     }
-
-    if (!has3DObject) {
-      ctx.save();
-      ctx.fillStyle = colLabel;
-      ctx.font = '500 13px "Roboto", sans-serif';
-      ctx.textAlign = "center";
-      ctx.textBaseline = "middle";
-      const cx = width / 2 + (sidebar.classList.contains("collapsed") ? 0 : 90);
-      ctx.fillText("3D-Modus aktiv — z. B.  z = sin(sqrt(x^2+y^2))  oder  ((3+cos(v))cos(u), (3+cos(v))sin(u), sin(v))", cx, height - 92);
-      ctx.restore();
-    }
   }
 
   function drawScene() {
