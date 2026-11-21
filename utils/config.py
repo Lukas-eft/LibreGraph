@@ -5,7 +5,7 @@ from dataclasses import dataclass
 
 @dataclass(frozen=True)
 class AppConfig:
-    window_title: str = "Graphing Calculator"
+    window_title: str = "LibreGraph"
     window_width: int = 1360
     window_height: int = 860
     window_min_width: int = 900

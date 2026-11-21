@@ -138,7 +138,7 @@ pip install pywebview>=5.0
 python main.py
 ```
 
-- **With `pywebview` installed:** Launches a `1360×860` native desktop window (`Graphing Calculator`).
+- **With `pywebview` installed:** Launches a `1360×860` native desktop window (`LibreGraph`).
 - **Without `pywebview`:** Starts the local `ThreadingHTTPServer` on `127.0.0.1` (random free port) and opens the app directly in your default browser. Press `Ctrl+C` in the terminal to stop the server.
 
 ---
@@ -255,4 +255,4 @@ All window, viewport, sampling density, and theme palette defaults are centraliz
 
 ## License
 
-This project is released under the [MIT License](https://opensource.org/licenses/MIT).
+This project is released under the [MIT License](LICENSE).
