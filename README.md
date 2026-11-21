@@ -12,7 +12,7 @@
 [![License: MIT](https://img.shields.io/badge/License-MIT-60a5fa?style=for-the-badge)](#license)
 [![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-34d399?style=for-the-badge)](https://github.com/Lukas-eft/OpenGraph/pulls)
 
-**A high-precision, interactive 2D & 3D symbolic graphing calculator powered by a Python (SymPy + NumPy) math engine and a translucent liquid-glass web/desktop UI.**
+**An interactive 2D and 3D graphing calculator built with Python, SymPy, and NumPy.**
 
 [Key Features](#-key-features) •
 [Visual Showcase](#-visual-showcase) •
@@ -54,10 +54,10 @@
 - **Least-Squares Regressions:** Fit linear and polynomial models such as $y_1 \sim m x_1 + b$ or $y_1 \sim a x_1^2 + b x_1 + c$ with live fitted parameter badges and $R^2$ goodness-of-fit scores.
 - **Lists & Curve Families:** Define ranges (`a = [1...5]`, `a = [0, 0.5, ..., 3]`) or inline lists (`[1, 2, 3]`) to generate curve families across functions, polar plots, inequalities, and 3D surfaces.
 
-### 🎯 Curve Analysis & Liquid-Glass UI
+### 🎯 Curve Analysis & Clean UI
 - **Key Points & Live Tangent Tracing:** Automatically detects roots, local extrema, $y$-intercepts, and curve-to-curve intersections; hover any curve for live coordinates and tangent slope $f'(x)$.
-- **WYSIWYG Math Input:** Seamless LaTeX editing via **MathLive** and **KaTeX**, paired with an optional raw LaTeX input bar and a tabbed on-screen math keypad (`Basic`, `Functions`, `Symbols`).
-- **Workspace Productivity:** Animated auto-sliders and explicit parameter sliders, collapsible folders and notes, 60-step Undo/Redo history, `localStorage` autosave, `.json` project save/load, Dark/Light themes, $\pi$-axis ticks, polar grid overlay, and crisp **Vector SVG** + **HiDPI PNG** export.
+- **WYSIWYG Math Input:** Live LaTeX editing via **MathLive** and **KaTeX**, paired with an optional raw LaTeX input bar and a tabbed on-screen math keypad (`Basic`, `Functions`, `Symbols`).
+- **Workspace Tools:** Animated auto-sliders and explicit parameter sliders, collapsible folders and notes, 60-step Undo/Redo history, `localStorage` autosave, `.json` project save/load, Dark/Light themes, $\pi$-axis ticks, polar grid overlay, and **Vector SVG** + **HiDPI PNG** export.
 
 ---
 
