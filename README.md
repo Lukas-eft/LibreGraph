@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="LibreGraph Banner" width="100%" />
+<img src="assets/libregraph-banner.png" alt="LibreGraph Banner" width="100%" />
 
 <br />
 <br />
