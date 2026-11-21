@@ -23,7 +23,7 @@
 
 <br />
 
-<img src="assets/hero-2d-dark.png" alt="LibreGraph 2D Dark Mode — Functions, Sliders, Shaded Integrals, and Implicit Curves" width="100%" />
+
 
 <sub><em>2D Dark Mode: Live MathLive LaTeX input, parameter sliders, shaded definite integrals, key point detection, and vectorized Marching Squares implicit plotting.</em></sub>
 
