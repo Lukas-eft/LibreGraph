@@ -25,7 +25,7 @@
 
 
 
-<sub><em>2D Dark Mode: Live MathLive LaTeX input, parameter sliders, shaded definite integrals, key point detection, and vectorized Marching Squares implicit plotting.</em></sub>
+
 
 </div>
 
