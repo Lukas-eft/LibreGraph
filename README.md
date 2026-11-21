@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="OpenGraph Banner" width="100%" />
+<img src="assets/banner.svg" alt="LibreGraph Banner" width="100%" />
 
 <br />
 <br />
@@ -10,7 +10,7 @@
 [![NumPy](https://img.shields.io/badge/NumPy-1.24%2B-013243?style=for-the-badge&logo=numpy&logoColor=white)](https://numpy.org/)
 [![PyWebView](https://img.shields.io/badge/PyWebView-Optional_Native_UI-18181b?style=for-the-badge)](https://pywebview.flowrl.com/)
 [![License: MIT](https://img.shields.io/badge/License-MIT-60a5fa?style=for-the-badge)](#license)
-[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-34d399?style=for-the-badge)](https://github.com/Lukas-eft/OpenGraph/pulls)
+[![PRs Welcome](https://img.shields.io/badge/PRs-Welcome-34d399?style=for-the-badge)](https://github.com/Lukas-eft/LibreGraph/pulls)
 
 **An interactive 2D and 3D graphing calculator built with Python, SymPy, and NumPy.**
 
@@ -23,7 +23,7 @@
 
 <br />
 
-<img src="assets/hero-2d-dark.png" alt="OpenGraph 2D Dark Mode — Functions, Sliders, Shaded Integrals, and Implicit Curves" width="100%" />
+<img src="assets/hero-2d-dark.png" alt="LibreGraph 2D Dark Mode — Functions, Sliders, Shaded Integrals, and Implicit Curves" width="100%" />
 
 <sub><em>2D Dark Mode: Live MathLive LaTeX input, parameter sliders, shaded definite integrals, key point detection, and vectorized Marching Squares implicit plotting.</em></sub>
 
@@ -66,13 +66,13 @@
 <table>
   <tr>
     <td width="50%" align="center">
-      <img src="assets/showcase-3d-dark.png" alt="OpenGraph 3D Surface Renderer" width="100%" />
+      <img src="assets/showcase-3d-dark.png" alt="LibreGraph 3D Surface Renderer" width="100%" />
       <br />
       <strong>Interactive 3D Surface Mode</strong><br />
       <sub>Depth-sorted 3D heightfield <code>z = sin(sqrt(x^2 + y^2))</code> with mouse orbit, zoom, and live theme adaptation.</sub>
     </td>
     <td width="50%" align="center">
-      <img src="assets/showcase-light-regression.png" alt="OpenGraph Light Mode — Data Table, Regression, and Slope Field" width="100%" />
+      <img src="assets/showcase-light-regression.png" alt="LibreGraph Light Mode — Data Table, Regression, and Slope Field" width="100%" />
       <br />
       <strong>Light Mode: Regressions &amp; ODE Slope Fields</strong><br />
       <sub>Data table paired with quadratic regression <code>y_1 ~ a x_1^2 + b x_1 + c</code> (R² = 0.99868) and slope field <code>y' = 0.25(x - y)</code>.</sub>
@@ -91,8 +91,8 @@
 
 ### 1. Clone the Repository
 ```bash
-git clone https://github.com/Lukas-eft/OpenGraph.git
-cd OpenGraph
+git clone https://github.com/Lukas-eft/LibreGraph.git
+cd LibreGraph
 ```
 
 ### 2. Create & Activate a Virtual Environment
@@ -126,13 +126,13 @@ pip install -r requirements.txt
 This installs the core math engine dependencies (`numpy>=1.24` and `sympy>=1.12`).
 
 #### Optional: Native Desktop Window Mode (`pywebview`)
-By default, OpenGraph automatically opens in your default web browser. If you prefer a standalone native desktop window with OS Save/Open dialogs:
+By default, LibreGraph automatically opens in your default web browser. If you prefer a standalone native desktop window with OS Save/Open dialogs:
 
 ```bash
 pip install pywebview>=5.0
 ```
 
-### 4. Launch OpenGraph
+### 4. Launch LibreGraph
 
 ```bash
 python main.py
@@ -170,7 +170,7 @@ python main.py
 
 ## 🏗️ Architecture Overview
 
-OpenGraph decouples a pure-Python symbolic/numerical compute backend from a zero-build HTML5 Canvas & MathLive frontend served over a local `ThreadingHTTPServer`:
+LibreGraph decouples a pure-Python symbolic/numerical compute backend from a zero-build HTML5 Canvas & MathLive frontend served over a local `ThreadingHTTPServer`:
 
 ```mermaid
 flowchart LR
@@ -198,7 +198,7 @@ flowchart LR
 ### Project Structure
 
 ```text
-OpenGraph/
+LibreGraph/
 ├── main.py                  # Application entry point (pywebview / browser launcher)
 ├── requirements.txt         # Core Python dependencies (numpy, sympy)
 ├── assets/                  # README visual assets (banner & live screenshots)
